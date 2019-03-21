@@ -1,0 +1,51 @@
+body {
+    background: #67B26F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4ca2cd, #67B26F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4ca2cd, #67B26F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: Helvetica, sans-serif;
+}
+
+#menutitle {
+    font-size: 48px;
+    text-align: center;
+}
+
+.klasse {
+    font-size: 28px;
+    text-align: center;
+    border-top: 1px solid black;
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+ul.menu li {
+    color: rebeccapurple;
+    text-align: center;
+    border: 1px solid black;
+    width: 200px;
+    margin: 4px auto;
+    padding: 10px;
+}
+
+ul.menu li:hover {
+    transition: background-color .3s ease-in;
+    background-color: lightblue;
+}
+
+.h1tje {
+    font-size: 48px;
+    text-align: center;
+}
+
+.creatediv {
+    text-align: center;
+}
+
+.searchdiv {
+    text-align: center;
+}
+
+.updatediv {
+    text-align: center;
+}
+
